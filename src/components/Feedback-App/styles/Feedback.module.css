@@ -1,0 +1,47 @@
+ul {
+  list-style: none;
+}
+ul,
+p,
+button {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 400px;
+  height: auto;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgb(118, 125, 168);
+  color: #fff;
+}
+
+.titleText {
+  text-align: center;
+}
+
+.listButton {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin-left: 30px;
+}
+
+.item:first-child {
+  margin-left: 0px;
+}
+
+.btnGroup {
+  border: inherit;
+  background-color: rgb(76, 73, 226);
+  color: #fff;
+  border-radius: 2px;
+  width: 60px;
+  padding: 3px 7px;
+}
+
+.prevDesc {
+  text-align: center;
+}
